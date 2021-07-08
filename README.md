@@ -12,7 +12,7 @@ Download [Notion.alfredworkflow](https://github.com/stevenrombauts/alfred-workfl
 
 1. Create a new [Internal Integration]( https://www.notion.com/my-integrations). 
 1. Copy the "Internal Integration Token" into the `NOTION_API_KEY` environment variable in this workflow.
-1. Each page with the integration before they can be accessed using the API. Note that you don't have to share subpages, the root pages suffice.
+1. Each page must be shared with the integration before they can be accessed using the API. Press the "Share" button on top of each page and add the integration. Note that you don't have to share subpages, the root pages suffice.
 
 The [Notion docs](https://developers.notion.com/docs/getting-started) explain these steps very well. 
 
