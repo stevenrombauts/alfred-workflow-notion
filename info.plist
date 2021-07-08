@@ -56,7 +56,7 @@
 				<key>queuedelaymode</key>
 				<integer>0</integer>
 				<key>queuemode</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>runningsubtext</key>
 				<string>Searching ..</string>
 				<key>script</key>
@@ -137,7 +137,7 @@ If you want to open links in the desktop app, change the useDesktop environment 
 		<key>NOTION_API_KEY</key>
 		<string>secret_xcVvTDYiGXbvXtjFxGwfi04W4ZxfxxClezi5zBchtCc</string>
 		<key>useDesktop</key>
-		<string>false</string>
+		<string>true</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
