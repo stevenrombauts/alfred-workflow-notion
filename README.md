@@ -6,7 +6,7 @@ An Alfred Workflow to search through your Notion workspace with the Notion API.
 
 ## Installation
 
-Download [Notion.alfredworkflow](https://github.com/stevenrombauts/alfred-workflow-notion/releases/tag/1.0.0) and open to install in Alfrew.
+Download [Notion.alfredworkflow](https://github.com/stevenrombauts/alfred-workflow-notion/releases/tag/v1.0.0) and open to install in Alfrew.
 
 ## Configuration 
 
