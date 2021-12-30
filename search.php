@@ -84,12 +84,14 @@ foreach ($results->results as $result)
 
     $title = sprintf('%s (%s)', $result->id, $result->object);
 
-    if ($result->object == 'page') 
+    if ($result->object == 'page')
     {
         if (isset($result->properties->Name->title[0]->plain_text)) {
             $title = $result->properties->Name->title[0]->plain_text;
         } elseif (isset($result->properties->{"﻿Name"}->title[0]->plain_text)) {
             $title = $result->properties->{"﻿Name"}->title[0]->plain_text;
+        } elseif (isset($result->properties->title->title[0]->text->content)) {
+            $title = $result->properties->title->title[0]->text->content;
         }
     }
     elseif ($result->object == 'database')
